@@ -9,6 +9,7 @@ namespace Sample._webparts.SampleWebPart
     {
         protected override void Render(HtmlTextWriter writer)
         {
+            // Added a change!
             writer.Write("Hello world!");
         }
     }
